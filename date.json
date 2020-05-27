@@ -1,0 +1,139 @@
+{
+  "game": [
+    {
+      "id": 1,
+      "name": "New Horizons"
+    },
+    {
+      "id": 2,
+      "name": "Wild World"
+    },
+    {
+      "id": 3,
+      "name": "New Leaf"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "gameId": 1,
+      "img": "img/raymond.png",
+      "name": "Raymond",
+      "gender": "Male",
+      "species": "Cat",
+      "personality": "Smug",
+      "birthday": "October 1",
+      "about": "Raymond is a very precise fellow. His signature glasses must always be at a specific angle on his nose. If they're even slightly off-kilter, he won't be able to get any work done that day!"
+    },
+    {
+      "id": 2,
+      "gameId": 1,
+      "img": "img/cyd.png",
+      "name": "Cyd",
+      "gender": "Male",
+      "species": "Elephant",
+      "personality": "Cranky",
+      "birthday": "June 9",
+      "about": "On an average day, you can find Cyd posted up in his bedroom, rocking out to his favourite music. He loves to crank up the volume, but he's also mindful on his neighbors."
+    },
+    {
+      "id": 3,
+      "gameId": 1,
+      "img": "img/dom.png",
+      "name": "Dom",
+      "gender": "Male",
+      "species": "Sheep",
+      "personality": "Jock",
+      "birthday": "March 18",
+      "about": "Dom is always gazing up at the sky...even in the middle of a conversation. He claims he’s keeping his head up in search of a brighter future, but he swears he never looks directly at the sun."
+    },
+    {
+      "id": 4,
+      "gameId": 2,
+      "img": "img/dotty.png",
+      "name": "Dotty",
+      "gender": "Female",
+      "species": "Rabbit",
+      "personality": "Peppy",
+      "birthday": "March 14",
+      "about": "She wants to be a star, and she's not particular about what field she makes it big in. Singing, acting, sports- the important thing is that everyone knows her name!"
+    },
+    {
+      "id": 5,
+      "gameId": 2,
+      "img": "img/rowan.png",
+      "name": "Rowan",
+      "gender": "Male",
+      "species": "Tiger",
+      "personality": "Jock",
+      "birthday": "August 26",
+      "about": "He came to the sporting life late, but he's making up for lost time by throwing everything he's got into it. Go big or go home!"
+    },
+    {
+      "id": 6,
+      "gameId": 2,
+      "img": "img/wolfgang.png",
+      "name": "Wolfgang",
+      "gender": "Male",
+      "species": "Wolf",
+      "personality": "Cranky",
+      "birthday": "November 24",
+      "about": "He does what he wants. He says what he wants. He thinks what he wants. If you look up 'lone wolf' in the dictionary, there's a picture of him."
+    },
+    {
+      "id": 8,
+      "gameId": 3,
+      "img": "img/bob.png",
+      "name": "Bob",
+      "gender": "Male",
+      "species": "Cat",
+      "personality": "Lazy",
+      "birthday": "January 1",
+      "about": "Bob is an easygoing kind of guy. He doesn't worry too much about what he does or says, which doesn't always end well."
+    },
+    {
+      "id": 9,
+      "gameId": 3,
+      "img": "img/cherry.png",
+      "name": "Cherry",
+      "gender": "Female",
+      "species": "Dog",
+      "personality": "Uchi",
+      "birthday": "May 11",
+      "about": "Cherry's fashion sense always makes her stand out. She's great to take to events with large crowds. You'll never lose each other!"
+    },
+    {
+      "name": "Stitches",
+      "gender": "Male",
+      "species": "Cub",
+      "personality": "Lazy",
+      "birthday": "February 10",
+      "gameId": "1",
+      "img": "img/stitches.png",
+      "about": "Due to his relaxed personality and slow-moving nature, Stitches is often confused with plush look-alikes. Just so we're clear, he is NOT a toy.",
+      "id": 10
+    },
+    {
+      "name": "Fauna",
+      "gender": "Female",
+      "species": "Deer",
+      "personality": "Normal",
+      "birthday": "October 25",
+      "gameId": "2",
+      "img": "img/fauna.png",
+      "about": "Fauna is polite, reliable, and loved by all. She really doesn't have any major flaws. Well, other than her hypercompetitiveness. If you play cards with her, don't make eye contact.",
+      "id": 11
+    },
+    {
+      "name": "Bam",
+      "gender": "Male",
+      "species": "Deer",
+      "personality": "Jock",
+      "birthday": "November 7",
+      "gameId": "3",
+      "img": "img/bam.png",
+      "about": "With Bam, there are no surprises. His outspoken nature can be jarring at first, but he isn't afraid to say what's on his mind.",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="thescript.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "the.css">
+</head>
+
+<body>
+<div class = "main">
+	<div class ="flex-child1">
+		<div id ="logo">
+			<img src ="img/ac.png">
+		</div>
+		<div id = "sectionA">
+			<input type="button" id="onlyonce" class="button" onclick="solicitare()" value="Show Games"/>
+			<ul id = "gamesList"></ul>
+		</div>
+	</div>
+	<div class ="flex-child2">
+		<div id = "sectionB">
+			<ul id = "characterList"></ul>
+		</div>
+		<div id ="SectionC">
+		<div id="cform">
+			<form id = "addcharacter">
+			
+				<label for="gameId">Game ID</label>
+				<select id="gameId" name="gameId">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				
+				<label for="img">Image</label>
+				<input type="text" id = "img" name = "image" size="10">
+				
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" maxlength="8" size="6" value="">
+			
+				</br>
+				</br>
+				
+				<label for="gender">Gender</label>
+				<select id="gender" name="gender">
+					<option value="Female">Female</option>
+					<option value="Male">Male</option>
+				</select>
+			
+				<label for="species">Species</label>
+				<select id="species" name="species">
+					<option value="Cat">Cat</option>
+					<option value="Dog">Dog</option>
+					<option value="Rabbit">Rabbit</option>
+					<option value="Tiger">Tiger</option>
+					<option value="Goat">Goat</option>
+					<option value="Elephant">Elephant</option>
+					<option value="Sheep">Sheep</option>
+					<option value="Wolf">Wolf</option>
+					<option value="Alligator">Alligator</option>
+					<option value="Bear">Bear</option>
+					<option value="Squirrel">Squirrel</option>
+					<option value="Deer">Deer</option>
+					<option value="Penguin">Penguin</option>
+					<option value="Cub">Cub</option>
+				</select>
+				
+				<label for="personality">Personality</label>
+				<select id="personality" name="personality">
+					<option value="Cranky">Cranky</option>
+					<option value="Lazy">Lazy</option>
+					<option value="Jock">Jock</option>
+					<option value="Smug">Smug</option>
+					<option value="Normal">Normal</option>
+					<option value="Peppy">Peppy</option>
+					<option value="Snooty">Snooty</option>
+				</select>
+				
+				</br>
+				</br>
+
+				<label for="about">About</label>
+				<input type="text" id="about" name="about" style="overflow: auto;" size="45">
+				<input type="button" onclick="sendinfo()" class="add" value="Add"/>
+			</form>
+		</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
